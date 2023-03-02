@@ -40,7 +40,7 @@ const Messages: React.FC = () => {
   const [loading, setLoading] = React.useState<boolean>(true);
 
   const colorValue = useColorModeValue(color.light, color.dark);
-  const userLink = `https://druz.xyz/${user}`;
+  const userLink = `https://Caly.xyz/${user}`;
   const { hasCopied, onCopy } = useClipboard(userLink);
 
   const handleCopy = () => {
@@ -226,7 +226,7 @@ const Messages: React.FC = () => {
                     }
                     color={colorValue}
                     isReadOnly
-                    defaultValue={`https://druz.xyz/${user}`}
+                    defaultValue={`https://Caly.xyz/${user}`}
                   />
                   <InputRightElement height="100%" width="5.5rem">
                     <ChakraButton

@@ -32,7 +32,7 @@ const Footer: React.FC = () => {
                 fontWeight={500}
                 as="a"
               >
-                About Druz
+                About Caly
               </Text>
             </Link>
             <Link passHref href="/how-it-works">
@@ -94,7 +94,7 @@ const Footer: React.FC = () => {
             </Link>
           </HStack>
           <Text fontSize="sm" textAlign="center" fontWeight={500}>
-            &copy; Druz {new Date().getFullYear()}
+            &copy; Caly {new Date().getFullYear()}
           </Text>
         </VStack>
       </Container>

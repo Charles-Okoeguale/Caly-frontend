@@ -7,12 +7,12 @@ interface PageLoaderProps {
 
 const PageLoader: React.FC<PageLoaderProps> = ({ loaded }) => {
   <Head>
-    <title>Find out what people think about you | Druz</title>
+    <title>Find out what people think about you | Caly</title>
     <meta charSet="utf-8" />
     <meta content="IE=edge" httpEquiv="X-UA-Compatible" />
     <meta content="width=device-width, initial-scale=1" name="viewport" />
     <meta
-      content="Druz is an interactive, fun, secure and safe app. Create an account, set your questions, share your profile link and see what your friends think about you. All for free!"
+      content="Caly is an interactive, fun, secure and safe app. Create an account, set your questions, share your profile link and see what your friends think about you. All for free!"
       name="description"
     />
     <meta content="follow, index" name="robots" />
@@ -46,21 +46,21 @@ const PageLoader: React.FC<PageLoaderProps> = ({ loaded }) => {
     <link href="/favicons/favicon.ico" rel="shortcut icon" />
     <meta content="en_US" property="og:locale" />
     <meta
-      content="Find out what people think about you | Druz"
+      content="Find out what people think about you | Caly"
       property="og:title"
     />
     <meta
-      content="Druz is an interactive, fun, secure and safe app. Create an account, set your questions, share your profile link and see what your friends think about you. All for free!"
+      content="Caly is an interactive, fun, secure and safe app. Create an account, set your questions, share your profile link and see what your friends think about you. All for free!"
       property="og:description"
     />
     <meta
-      content="Druz is an interactive, fun, secure and safe app. Create an account, set your questions, share your profile link and see what your friends think about you. All for free!"
+      content="Caly is an interactive, fun, secure and safe app. Create an account, set your questions, share your profile link and see what your friends think about you. All for free!"
       property="og:image:alt"
     />
 
     <meta content="summary_large_image" name="twitter:card" />
-    <meta content="@druz_app" name="twitter:site" />
-    <meta content="@druz_app" name="twitter:creator" />
+    <meta content="@Caly_app" name="twitter:site" />
+    <meta content="@Caly_app" name="twitter:creator" />
   </Head>;
   return (
     <div style={{ display: !loaded ? "block" : "none" }}>

@@ -9,7 +9,7 @@ const Settings: React.FC = () => {
       image={"/images/banner.png"}
       title={"Your profile settings"}
       description={
-        "Druz helps you find out what people think about you by getting them to answer some Profile."
+        "Caly helps you find out what people think about you by getting them to answer some Profile."
       }
     >
       {shouldRender && <SettingsPage />}

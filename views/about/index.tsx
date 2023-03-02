@@ -15,10 +15,10 @@ const About: React.FC = () => {
           mt={{ base: 4, md: 10 }}
         >
           <Heading textAlign="center" as="h1">
-            About Druz
+            About Caly
           </Heading>
           <Text fontSize={{ base: "md", md: "lg" }} mt={8}>
-            Druz is a fun and interactive social platform that helps users find
+            Caly is a fun and interactive social platform that helps users find
             out what their friends, family and fans think about them by getting
             them to answer questions they set on their profile.
           </Text>
@@ -28,7 +28,7 @@ const About: React.FC = () => {
             viewing responses as soon as possible.
           </Text>
           <Text fontSize={{ base: "md", md: "lg" }} mt={4}>
-            Druz makes it very easy for users to share their link on other
+            Caly makes it very easy for users to share their link on other
             social media platforms too so that their followers and contacts can
             take their challenge.
           </Text>

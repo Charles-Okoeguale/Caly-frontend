@@ -8,9 +8,9 @@ const ResetPassword: React.FC<{ token: string; email: string }> = ({
   return (
     <Page
       image={"/images/banner.png"}
-      title={"Reset your password | Druz"}
+      title={"Reset your password | Caly"}
       description={
-        "Druz is an interactive, fun, secure and safe app. Create an account, set your questions, share your profile link and see what your friends think about you. All for free!"
+        "Caly is an interactive, fun, secure and safe app. Create an account, set your questions, share your profile link and see what your friends think about you. All for free!"
       }
     >
       <ResetPasswordPage token={token} email={email} />

@@ -137,7 +137,7 @@ const Login: React.FC = () => {
                 <Heading mb={2} as="h1" size="lg">
                   Login
                 </Heading>
-                <Text>Welcome back to Druz</Text>
+                <Text>Welcome back to Caly</Text>
               </Box>
 
               <Box>

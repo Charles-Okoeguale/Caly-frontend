@@ -19,11 +19,11 @@ const Page: React.FC<{
   date,
   description,
   image,
-  title = "Druz",
+  title = "Caly",
   router,
   excludeWrapper,
 }) => {
-  const domain = process.env.DOMAIN || "https://www.druz.xyz";
+  const domain = process.env.DOMAIN || "https://www.Caly.xyz";
   const url = router && router.asPath ? router.asPath : undefined;
   const canonical = url && url === "/" ? domain : domain + url;
   const featuredImage = domain + image;
@@ -38,7 +38,7 @@ const Page: React.FC<{
         {description && <meta content={description} name="description" />}
         <meta
           content={
-            "Druz, Anonymous, answer, questions, find out what others think about you, answer questions, anonymous messaging"
+            "Caly, Anonymous, answer, questions, find out what others think about you, answer questions, anonymous messaging"
           }
           name="keywords"
         />
@@ -89,7 +89,7 @@ const Page: React.FC<{
             <meta
               content={
                 description ||
-                "Druz helps you find out what people think about you by getting them to answer some questions."
+                "Caly helps you find out what people think about you by getting them to answer some questions."
               }
               property="og:image:alt"
             />
@@ -98,17 +98,17 @@ const Page: React.FC<{
         ) : (
           <>
             <meta
-              content="https://res.cloudinary.com/djksghat4/image/upload/v1590483641/Druz/android-chrome-512x512.png"
+              content="https://res.cloudinary.com/djksghat4/image/upload/v1590483641/Caly/android-chrome-512x512.png"
               property="og:image"
             />
             <meta
               name="twitter:image"
-              content="https://res.cloudinary.com/djksghat4/image/upload/v1590483641/Druz/android-chrome-512x512.png"
+              content="https://res.cloudinary.com/djksghat4/image/upload/v1590483641/Caly/android-chrome-512x512.png"
             />
             <meta
               content={
                 description ||
-                "Druz helps you find out what people think about you by getting them to answer some questions."
+                "Caly helps you find out what people think about you by getting them to answer some questions."
               }
               property="og:image:alt"
             />
@@ -121,8 +121,8 @@ const Page: React.FC<{
           </>
         )}
         <meta content="summary_large_image" name="twitter:card" />
-        <meta content="@druz_app" name="twitter:site" />
-        <meta content="@druz_app" name="twitter:creator" />
+        <meta content="@Caly_app" name="twitter:site" />
+        <meta content="@Caly_app" name="twitter:creator" />
       </Head>
       {excludeWrapper ? <>{children}</> : <Wrapper>{children}</Wrapper>}
       {date && (
@@ -133,7 +133,7 @@ const Page: React.FC<{
           description={description}
           images={[featuredImage]}
           publisherLogo={`${domain}/logo192.png`}
-          publisherName="Druz"
+          publisherName="Caly"
           title={title}
           url={canonical}
         />

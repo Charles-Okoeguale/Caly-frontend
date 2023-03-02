@@ -23,7 +23,7 @@ const HowItWorks: React.FC = () => {
       <Container>
         <Box mb={{ base: 16, md: 20 }} mt={{ base: 4, md: 6 }}>
           <Heading textAlign="center" as="h1">
-            How Druz works
+            How Caly works
           </Heading>
 
           <Box mx="auto" maxWidth="900px" mt={{ base: 8, md: 16 }}>

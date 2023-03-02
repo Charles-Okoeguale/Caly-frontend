@@ -5,9 +5,9 @@ const FAQ: React.FC = () => {
   return (
     <Page
       image={"/images/banner.png"}
-      title={"Frequently Asked Questions | Druz"}
+      title={"Frequently Asked Questions | Caly"}
       description={
-        "Druz is an interactive, fun, secure and safe app. Create an account, set your questions, share your profile link and see what your friends think about you. All for free!"
+        "Caly is an interactive, fun, secure and safe app. Create an account, set your questions, share your profile link and see what your friends think about you. All for free!"
       }
     >
       <FAQPage />

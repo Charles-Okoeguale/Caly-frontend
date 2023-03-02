@@ -28,7 +28,7 @@ const Contact: React.FC = () => {
               transition="transform ease-in .3s"
               _hover={{ transform: "scale(1.1)" }}
             >
-              <a rel="noreferrer" target="_blank" href="mailto:hello@druz.xyz">
+              <a rel="noreferrer" target="_blank" href="mailto:hello@Caly.xyz">
                 <HiOutlineMail size="50px" />
               </a>
             </Box>
@@ -39,7 +39,7 @@ const Contact: React.FC = () => {
               <a
                 rel="noreferrer"
                 target="_blank"
-                href="https://twitter.com/druz_app"
+                href="https://twitter.com/Caly_app"
               >
                 <ImTwitter color="#00aced" size="48px" />
               </a>

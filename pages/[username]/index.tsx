@@ -40,19 +40,19 @@ const User: React.FC<Props> = ({ user, error, noResponse, noUser }) => {
       image={"/images/banner.png"}
       title={
         error || noResponse
-          ? "Druz"
+          ? "Caly"
           : noUser
-          ? "User not found | Druz"
+          ? "User not found | Caly"
           : // @ts-ignore
-            `Take a challenge by ${capitalizeString(username)} | Druz`
+            `Take a challenge by ${capitalizeString(username)} | Caly`
       }
       description={
         user
           ? `${capitalizeString(
               // @ts-ignore
               username,
-            )} has a challenge for you on Druz. Get started by leaving them a message and let them know what you think about them!`
-          : "Druz helps you find out what people think about you by getting them to answer some questions."
+            )} has a challenge for you on Caly. Get started by leaving them a message and let them know what you think about them!`
+          : "Caly helps you find out what people think about you by getting them to answer some questions."
       }
     >
       <UserMessages

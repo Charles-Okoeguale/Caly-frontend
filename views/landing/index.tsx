@@ -29,7 +29,7 @@ const LandingPage: React.FC = () => {
             Find out what people think about you.
           </Heading>
           <Text maxWidth="900px" mx="auto" mb={[8, 10]} textAlign="center">
-            Druz is an interactive, fun, secure and safe app. Create an account,
+            Caly is an interactive, fun, secure and safe app. Create an account,
             set your questions, share your profile link and see what your
             friends think about you!{" "}
             <chakra.span fontWeight={500} fontStyle="italic">
@@ -116,7 +116,7 @@ const LandingPage: React.FC = () => {
                   100% Free
                 </Text>
                 <Text maxWidth={["400px"]}>
-                  Access all of Druz&apos; features without having to pay a
+                  Access all of Caly&apos; features without having to pay a
                   penny.
                 </Text>
               </Box>

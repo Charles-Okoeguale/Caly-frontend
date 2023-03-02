@@ -40,7 +40,7 @@ const Home: React.FC = () => {
   const colorValue = useColorModeValue(color.light, color.dark);
   const [loading, setLoading] = React.useState<boolean>(true);
   const [user, setUser] = React.useState<User | null>(null);
-  const userLink = `https://druz.xyz/${user?.name}`;
+  const userLink = `https://Caly.xyz/${user?.name}`;
   const { hasCopied, onCopy } = useClipboard(userLink);
 
   const handleCopy = () => {
@@ -80,7 +80,7 @@ const Home: React.FC = () => {
                   Welcome back {user && capitalizeString(user?.name)}
                 </Heading>
                 <Text mb={{ base: 6, md: 8 }}>
-                  Share your Druz link with friends and have them take on your
+                  Share your Caly link with friends and have them take on your
                   challenge{" "}
                   <span role="img" aria-labelledby="hand emoji">
                     👇
@@ -90,7 +90,7 @@ const Home: React.FC = () => {
                   <CustomInput
                     color={colorValue}
                     isReadOnly
-                    defaultValue={`https://druz.xyz/${user?.name}`}
+                    defaultValue={`https://Caly.xyz/${user?.name}`}
                   />
                   <InputRightElement height="100%" width="5.5rem">
                     <ChakraButton
@@ -124,7 +124,7 @@ const Home: React.FC = () => {
                     quote={
                       "Take this little challenge and let me know what you think about me \n\n"
                     }
-                    hashtag="druz_app"
+                    hashtag="Caly_app"
                   >
                     <FaFacebook
                       size="30px"
@@ -151,9 +151,9 @@ const Home: React.FC = () => {
                     title={
                       "Take this little challenge and let me know what you think about me 🤗\n\n"
                     }
-                    via="druz_app"
-                    hashtags={["druz_app"]}
-                    related={["druz_app"]}
+                    via="Caly_app"
+                    hashtags={["Caly_app"]}
+                    related={["Caly_app"]}
                   >
                     <ImTwitter
                       size="30px"

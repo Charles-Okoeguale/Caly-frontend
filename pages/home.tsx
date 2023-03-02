@@ -7,9 +7,9 @@ const Home: React.FC = () => {
   return (
     <Page
       image={"/images/banner.png"}
-      title={"Home | Druz"}
+      title={"Home | Caly"}
       description={
-        "Druz helps you find out what people think about you by getting them to answer some questions."
+        "Caly helps you find out what people think about you by getting them to answer some questions."
       }
     >
       {shouldRender && <HomePage />}

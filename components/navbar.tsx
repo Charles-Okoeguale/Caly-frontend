@@ -79,7 +79,7 @@ const Header: React.FC = () => {
   };
 
   React.useEffect(() => {
-    const getToken = localStorage.getItem("druz_token");
+    const getToken = localStorage.getItem("Caly_token");
     setLoggedIn(!!getToken);
   }, []);
 
@@ -128,7 +128,7 @@ const Header: React.FC = () => {
             >
               <Link href={loggedIn ? "/home" : "/"}>
                 <a>
-                  Druz
+                  Caly
                   <span aria-labelledby="eyes emoji" role="img">
                     👀
                   </span>

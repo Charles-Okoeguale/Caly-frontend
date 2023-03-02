@@ -9,7 +9,7 @@ const Messages: React.FC = () => {
       image={"/images/banner.png"}
       title={"Your Messages"}
       description={
-        "Druz helps you find out what people think about you by getting them to answer some questions."
+        "Caly helps you find out what people think about you by getting them to answer some questions."
       }
     >
       {shouldRender && <MessagesPage />}

@@ -9,7 +9,7 @@ const NotFound: React.FC = () => {
   const [loggedIn, setLoggedIn] = React.useState(false);
 
   React.useEffect(() => {
-    const getToken = localStorage.getItem("druz_token");
+    const getToken = localStorage.getItem("Caly_token");
     setLoggedIn(!!getToken);
   }, []);
   return (

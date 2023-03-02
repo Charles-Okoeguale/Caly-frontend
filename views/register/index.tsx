@@ -195,7 +195,7 @@ const Register: React.FC = () => {
                 <Heading mb={2} as="h1" size="lg">
                   Create your account
                 </Heading>
-                <Text>Start creating questions with Druz</Text>
+                <Text>Start creating questions with Caly</Text>
               </Box>
 
               <Box>

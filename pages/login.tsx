@@ -15,9 +15,9 @@ const Login: React.FC = () => {
   return (
     <Page
       image={"/images/banner.png"}
-      title={"Sign in to Druz | Druz"}
+      title={"Sign in to Caly | Caly"}
       description={
-        "Druz is an interactive, fun, secure and safe app. Create an account, set your questions, share your profile link and see what your friends think about you. All for free!"
+        "Caly is an interactive, fun, secure and safe app. Create an account, set your questions, share your profile link and see what your friends think about you. All for free!"
       }
     >
       <LoginPage />
