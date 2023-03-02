@@ -57,7 +57,7 @@ const ResetPassword: React.FC<Props> = ({ token, email }) => {
       setTimeout(() => {
         router.push("/login");
       }, 1500);
-    } catch (err) {
+    } catch (err: any) {
       if (err?.response?.data) {
         addToast(err.response.data.errors?.[0]?.msg, { appearance: "error" });
       }
